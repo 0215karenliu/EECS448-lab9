@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mystery Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <p>Choose any item you want at any quanity.</p>
+        </header>
+        <main>
+			<div id="background"></div>
+			<form action="back.php" method="post">
+				<b>Gaming Consoles:</b><br>
+					Become invisible for 1 hour, $500<br>
+					Quantity: <input type="number" id="invisible" name="invisible" min="0"><br><br>
+					Become a different gender for a day, $1000<br>
+					Quantity: <input type="number" id="gender" name="gender" min="0"><br><br>
+					Have 400 IQ for a day, $1500<br>
+					Quantity: <input type="number" id="iq" name="iq" min="0"><br><br>
+				<b>Enter in your information:</b><br>
+					Username: <input type="text" name="username" id="username"><br>
+					Password: <input type="text" name="password" id="password"><br><br>
+				<b>Choose your shipping option:</b><br>
+					<input type="radio" name="shipping" id="free" value="Free 7 Day">Free 7 Day<br>
+					<input type="radio" name="shipping" id="50" value="$50 Over Night">$50.00 Over Night<br>
+					<input type="radio" name="shipping" id="5" value="$5 Three Day">$5.00 Three Day<br>
+				<input type="submit" id="submit" value="Submit Quiz">
+				<input type="reset">
+			</form>
+        </main>
+        <script src="formChecker.js"></script>
+    </body>
+</html>

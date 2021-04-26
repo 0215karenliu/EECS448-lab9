@@ -1,0 +1,41 @@
+body{
+    font: Times New Roman;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    padding: 0;
+}
+
+#submit{
+    margin: 10px 5px 5px 5px;
+}
+
+#refresh{
+    text-align: center;
+    padding: 5px;
+}
+
+input[type=number]{
+    width: 50px;
+}
+
+footer{
+    font: Times New Roman;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+    padding-top: 5%;
+}
